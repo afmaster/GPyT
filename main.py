@@ -49,3 +49,5 @@ def query_gpyt(query: str) -> str:
 
 if __name__ == "__name__":
     user_input = "Quantos nutricionistas tem registrados em Porto Alegre?"
+    answer = query_gpyt(user_input)
+    print(answer)
